@@ -1,0 +1,1 @@
+{"title":"Change caps_lock to option+space","rules":[{"description":"Change caps_lock to option+space","manipulators":[{"type":"basic","from":{"key_code":"caps_lock"},"to":[{"repeat":true,"key_code":"spacebar","modifiers":["left_alt"]}]}]}]}
