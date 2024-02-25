@@ -23,6 +23,7 @@ brew install starship
 brew install thefuck
 brew install --cask iterm2
 brew install --cask karabiner-elements
+brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono-nerd-font
 ```
 
