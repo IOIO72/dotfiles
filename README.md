@@ -2,6 +2,13 @@
 
 My personal Dotfiles (and scripts).
 
+Using:
+
+* _Stow_ to alias dotfiles to home directory
+* _Oh My ZSH_ and plugins
+* _Starship_ prompt
+* _Karabiner_ for keyboard modifications
+
 ## Requirements
 
 ```
