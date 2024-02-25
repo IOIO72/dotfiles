@@ -9,7 +9,7 @@ brew install fzf
 brew install zoxide
 ```
 
-## Instllation
+## Installation
 
 ```
 $ git clone git@github.com/IOIO72/dotfiles.git
