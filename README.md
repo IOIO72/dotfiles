@@ -14,6 +14,7 @@ brew install fzf
 brew install zoxide
 brew install starship
 brew install --cask iterm2
+brew install --cask karabiner-elements
 brew install --cask font-jetbrains-mono-nerd-font
 ```
 
