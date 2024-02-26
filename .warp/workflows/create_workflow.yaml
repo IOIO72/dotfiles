@@ -1,0 +1,16 @@
+---
+name: Create Warp Workflow
+command: "cp ~/.warp/workflow-template.yaml ~/.warp/workflows/{{name}}.yaml 
+&& nano ~/.warp/workflows/{{name}}.yaml"
+tags:
+  - warp
+  - workflows
+  - workflow
+description: "Create YAML file for a Warp workflow"
+arguments:
+  - name: name
+    description: File name of the new Warp workflow
+author: IOIO72
+author_url: https://github.com/IOIO72
+shells:
+  - zsh

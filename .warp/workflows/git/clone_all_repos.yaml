@@ -1,0 +1,19 @@
+---
+name: Clone all repos of an organisation in GitHub
+command: "gh repo list {{org}} --limit 1000 | while read -r repo _; do\n  gh repo clone \"$repo\" \"$repo\"\ndone\n"
+tags:
+  - git
+  - github
+  - clone
+  - repo
+  - repository
+description: "Set your GitHub organisation name to clone all repositories of it.\nIf you are not logged in to GitHub, execute \"gh auth login\" before using this workflow.\nIf you haven't installed the GitHub CLI, do so by 
+\"brew install gh\""
+arguments:
+  - name: org
+    description: Name of your GitHub organisation. You have one organisation at least, which is your user name.
+source_url: "https://stackoverflow.com/a/68770988/4922461"
+author: RichVel
+author_url: "https://stackoverflow.com/users/992887/richvel"
+shells:
+  - zsh

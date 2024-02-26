@@ -1,0 +1,20 @@
+---
+name: Contribute Homebrew Cask Package Update
+command: "brew bump-cask-pr --version {{version}} {{package}}"
+tags:
+  - homebrew
+  - brew
+  - package
+  - update
+  - contribution
+description: "Contribute a cask package update to Homebrew GitHub repository"
+arguments:
+  - name: version
+    description: Version (package file name) of the new version
+  - name: package
+    description: Name of the Cask package
+source_url: "https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask"
+author: Homebrew
+author_url: https://github.com/Homebrew
+shells:
+  - zsh

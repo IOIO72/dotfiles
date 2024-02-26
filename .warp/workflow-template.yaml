@@ -1,0 +1,15 @@
+---
+name: {name of the workflow}
+command: "{command {{argument}} }"
+tags:
+  - {optional tag}
+description: "{optional description}"
+arguments:
+  - name: {argument name}
+    description: {optional argument description}
+    default_value: {optional}
+source_url: "{optional stackoverflow ...}"
+author: {optional stackoverflow user ...}
+author_url: {user url}
+shells:
+  - zsh

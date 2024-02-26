@@ -1,0 +1,7 @@
+---
+"workspace:increase_font_size": cmd-+
+"workspace:activate_prev_tab": alt-<
+"input:toggle_natural_language_command_search": "ctrl-#"
+"pane_group:navigate_prev": ctrl-<
+"pane_group:navigate_next": ctrl-shift->
+"workspace:activate_next_tab": alt-shift->
