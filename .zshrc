@@ -72,10 +72,16 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker-compose emoji-clock fzf git gitignore isodate jira nvm starship thefuck zoxide)
+plugins=(docker-compose emoji-clock fzf git gitignore isodate jira nvm pyenv starship thefuck zoxide)
 
 ZOXIDE_CMD_OVERRIDE="cd"
+
 NVM_HOMEBREW="/opt/homebrew"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
 JIRA_URL="https://dbvertrieb.jaas.service.deutschebahn.com"
 JIRA_NAME="TamioHonma"
 JIRA_PREFIX="BID-"
@@ -108,13 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-# PYTHON
-
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
 
 
 # WARP
