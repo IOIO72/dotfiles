@@ -1,8 +1,3 @@
-# ZOXIDE
-
-ZOXIDE_CMD_OVERRIDE="cd"
-
-
 # OH MY ZSH
 
 # If you come from bash you might have to change your $PATH.
@@ -77,7 +72,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fzf zoxide starship thefuck)
+plugins=(git fzf zoxide nvm starship thefuck)
+
+ZOXIDE_CMD_OVERRIDE="cd"
+NVM_HOMEBREW="/opt/homebrew"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -137,13 +135,6 @@ export GPG_TTY=$(tty)
 # HOMEBREW (Contribution via GitHub)
 
 export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
-
-
-### NVM
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 
 ### DOCKER
