@@ -72,7 +72,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(fzf git jira nvm starship thefuck zoxide)
+plugins=(fzf git isodate jira nvm starship thefuck zoxide)
 
 ZOXIDE_CMD_OVERRIDE="cd"
 NVM_HOMEBREW="/opt/homebrew"
