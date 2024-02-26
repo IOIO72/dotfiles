@@ -77,7 +77,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fzf zoxide)
+plugins=(git fzf zoxide thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -132,11 +132,6 @@ if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 
   ##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
 fi
-
-
-### THE FUCK
-
-eval $(thefuck --alias)
 
 
 ### GIT
