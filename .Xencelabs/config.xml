@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Root>
+  <PenTableLists version="1.0.0">
+    <M6f29482585d3>
+      <Remote name="Tamios Quick Keys2" rotation="2" id="0">
+        <Default>
+          <K>
+            <K1 Show="1" Motid="1" Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 Show="1" Motid="2" Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 Show="1" Motid="3" Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 Show="1" Motid="4" Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 Show="1" Motid="5" Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+            <K6 Show="1" Motid="6" Actid="2" id="2">2|Command|Command|16777250:55</K6>
+            <K7 Show="1" Motid="7" Actid="2" id="2">2|Option|Option|16777251:58</K7>
+            <K8 Show="1" Motid="8" Actid="2" id="2">2|*#Space|Space|32:49</K8>
+            <K9 Show="1" Motid="9" Actid="0" id="0"/>
+            <K10 Show="1" Motid="10" Actid="0" id="0"/>
+          </K>
+          <R wid="1">
+            <W1 name="" color="6" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+            <W2 name="" color="7" colorbright="2" orderid="2" speed="3" enable="1" id="2"/>
+            <W3 name="" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="3"/>
+            <W4 name="" color="4" colorbright="2" orderid="4" speed="3" enable="1" id="4">4|*#Brush Size|[|]|91:33|93:30</W4>
+          </R>
+        </Default>
+        <CommonAPP>
+          <K>
+            <Set name="Finder" enable="1" id="0">
+              <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+              <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+              <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+              <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+              <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+              <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+              <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+              <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+            </Set>
+            <Set name="Warp" enable="0" id="1">
+              <K1 Actid="2" id="2">2|Command$Palette|Command+p|16777250:55+80:35</K1>
+              <K2 Actid="2" id="2">2|Browse$Workflows|Control+Shift+r|16777249:59+16777248:56+82:15</K2>
+              <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+              <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+              <K5 Actid="2" id="2">2|Command$Search|Control+r|16777249:59+82:15</K5>
+              <K6 Actid="2" id="2">2|A.I. Command$Search|Control+#|16777249:59+35:42</K6>
+              <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+              <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+            </Set>
+            <Set name="" enable="0" id="2">
+              <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+              <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+              <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+              <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+              <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+              <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+              <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+              <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+            </Set>
+            <Set name="" enable="0" id="3">
+              <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+              <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+              <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+              <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+              <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+              <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+              <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+              <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+            </Set>
+            <Set name="" enable="0" id="4">
+              <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+              <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+              <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+              <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+              <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+              <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+              <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+              <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+            </Set>
+          </K>
+          <R wid="2">
+            <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+            <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+            <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+            <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="1" id="3"/>
+          </R>
+        </CommonAPP>
+        <Apps>
+          <App name="0" id="0">
+            <path>/Applications/OpenSCAD.app</path>
+            <K id="0">
+              <Set name="OpenSCAD" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Oben|Command+4|16777250:55+52:21</K1>
+                <K2 Actid="2" id="2">2|Links|Command+6|16777250:55+54:22</K2>
+                <K3 Actid="2" id="2">2|Vorn|Command+8|16777250:55+56:28</K3>
+                <K4 Actid="2" id="2">2|Alles$anzeigen|Command+Shift+v|16777250:55+16777248:56+86:9</K4>
+                <K5 Actid="2" id="2">2|Unten|Command+5|16777250:55+53:23</K5>
+                <K6 Actid="2" id="2">2|Rechts|Command+7|16777250:55+55:26</K6>
+                <K7 Actid="2" id="2">2|Hinten|Command+9|16777250:55+57:25</K7>
+                <K8 Actid="2" id="2">2|Diagonal|Command+0|16777250:55+48:29</K8>
+              </Set>
+              <Set name="" enable="0" id="1">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 name="Zoomen" color="2" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Text zoomen" color="3" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="0" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="0" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Typora.app</path>
+            <K id="0">
+              <Set name="Absatz" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Zitat|Option+Command+q|16777251:58+16777250:55+81:12</K1>
+                <K2 Actid="2" id="2">2|Ungeordnete$Liste|Command+Option+u|16777250:55+16777251:58+85:32</K2>
+                <K3 Actid="2" id="2">2|Aufgabe|Command+Option+x|16777250:55+16777251:58+88:7</K3>
+                <K4 Actid="2" id="2">2|Sidebar$ein/aus|Command+Shift+l|16777250:55+16777248:56+76:37</K4>
+                <K5 Actid="2" id="2">2|Code-$Block|Command+Option+c|16777250:55+16777251:58+67:8</K5>
+                <K6 Actid="2" id="2">2|Geordnete$Liste|Command+Option+o|16777250:55+16777251:58+79:31</K6>
+                <K7 Actid="2" id="2">2|Aufgabe$umschalten|Control+x|16777249:59+88:7</K7>
+                <K8 Actid="2" id="2">2|Fokus$Schreibmaschine|f8,f9|16777271:100,16777272:101</K8>
+              </Set>
+              <Set name="Tabelle" enable="1" id="1">
+                <K1 Actid="2" id="2">2|Tabelle$einfügen|Command+Option+t|16777250:55+16777251:58+84:17</K1>
+                <K2 Actid="2" id="2">2|Zeile$hoch|Control+Command+↑|16777249:59+16777250:55+16777235:126</K2>
+                <K3 Actid="2" id="2">2|Spalte$links|Control+Command+←|16777249:59+16777250:55+16777234:123</K3>
+                <K4 Actid="2" id="2">2|Quelltext|Command+-|16777250:55+45:44</K4>
+                <K5 Actid="2" id="2">2|Neue Zeile$unterhalb|Command+↵|16777250:55+16777220:36</K5>
+                <K6 Actid="2" id="2">2|Zeile$runter|Control+Command+↓|16777249:59+16777250:55+16777237:125</K6>
+                <K7 Actid="2" id="2">2|Spalte$rechts|Control+Command+→|16777249:59+16777250:55+16777236:124</K7>
+                <K8 Actid="2" id="2">2|Zeile$löschen|Command+Shift+⌫|16777250:55+16777248:56+16777219:51</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+Shift+_|Command++|16777250:55+16777248:56+95:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="0" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Opera GX.app</path>
+            <K id="0">
+              <Set name="Web" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Ohne Cache$neu laden|Command+Option+r|16777250:55+16777251:58+82:15</K1>
+                <K2 Actid="2" id="2">2|Inspektor|Command+Option+i|16777250:55+16777251:58+73:34</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+j|16777250:55+74:38</K3>
+                <K4 Actid="2" id="2">2|Moment-$aufnahme|Command+Shift+2|16777250:55+16777248:56+50:19</K4>
+                <K5 Actid="2" id="2">2|Daten$löschen|Command+Shift+⌫|16777250:55+16777248:56+16777219:51</K5>
+                <K6 Actid="2" id="2">2|Adress-$zeile|Command+l|16777250:55+76:37</K6>
+                <K7 Actid="2" id="2">2|Verlauf|Command+Shift+h|16777250:55+16777248:56+72:4</K7>
+                <K8 Actid="2" id="2">2|Erweiter-$ungen|Command+Shift+e|16777250:55+16777248:56+69:14</K8>
+              </Set>
+              <Set name="" enable="0" id="1">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="4" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Tabs" color="1" colorbright="2" orderid="4" speed="5" enable="1" id="4">4|Tab blättern|Command+Shift+←|Command+Shift+→|16777250:55+16777248:56+16777234:123|16777250:55+16777248:56+16777236:124</W4>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Microsoft Teams.app</path>
+            <K id="0">
+              <Set name="Anrufe" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Hand|Command+Shift+k|16777250:55+16777248:56+75:40</K1>
+                <K2 Actid="2" id="2">2|Kamera|Command+Shift+o|16777250:55+16777248:56+79:31</K2>
+                <K3 Actid="2" id="2">2|Teilen|Command+Shift+e|16777250:55+16777248:56+69:14</K3>
+                <K4 Actid="2" id="2">2|Besprechung$teilnehmen|Command+Shift+j|16777250:55+16777248:56+74:38</K4>
+                <K5 Actid="2" id="2">2|Hände$ansagen|Command+Shift+l|16777250:55+16777248:56+76:37</K5>
+                <K6 Actid="2" id="2">2|Mikro|Command+Shift+m|16777250:55+16777248:56+77:46</K6>
+                <K7 Actid="2" id="2">2|Chat|Command+Shift+r|16777250:55+16777248:56+82:15</K7>
+                <K8 Actid="2" id="2">2|Anruf$ablehnen|Command+Shift+d|16777250:55+16777248:56+68:2</K8>
+              </Set>
+              <Set name="" enable="0" id="1">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="2" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="1" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Adobe Lightroom CC/Adobe Lightroom.app</path>
+            <K id="0">
+              <Set name="Ansicht" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Raster|g|71:5</K1>
+                <K2 Actid="2" id="2">2|Vergleichen|Option+c|16777251:58+67:8</K2>
+                <K3 Actid="2" id="2">2|Details|d|68:2</K3>
+                <K4 Actid="2" id="2">2|Vollbild|f|70:3</K4>
+                <K5 Actid="2" id="2">2|Fotos|p|80:35</K5>
+                <K6 Actid="2" id="2">2|Bearbeiten|e|69:14</K6>
+                <K7 Actid="2" id="2">2|Information|i|73:34</K7>
+                <K8 Actid="2" id="2">2|Zoom$ein/aus|Space|32:49</K8>
+              </Set>
+              <Set name="Bewerten" enable="1" id="1">
+                <K1 Actid="2" id="2">2|Demarkieren|u|85:32</K1>
+                <K2 Actid="2" id="2">2|Markieren|z|90:16</K2>
+                <K3 Actid="2" id="2">2|Zurück-$weisen|x|88:7</K3>
+                <K4 Actid="2" id="2">2|Null$Sterne|0|48:29</K4>
+                <K5 Actid="2" id="2">2|1 Stern|1|49:18</K5>
+                <K6 Actid="2" id="2">2|2 Sterne|2|50:19</K6>
+                <K7 Actid="2" id="2">2|3 Sterne|3|51:20</K7>
+                <K8 Actid="2" id="2">2|4 Sterne|4|52:21</K8>
+              </Set>
+              <Set name="Bearbeiten" enable="1" id="2">
+                <K1 Actid="2" id="2">2|Bearbeiten|e|69:14</K1>
+                <K2 Actid="2" id="2">2|Zuschneiden|c|67:8</K2>
+                <K3 Actid="2" id="2">2|Reparieren|h|72:4</K3>
+                <K4 Actid="2" id="2">2|Maskieren|m|77:46</K4>
+                <K5 Actid="2" id="2">2|Zurück-$setzen|Command+r|16777250:55+82:15</K5>
+                <K6 Actid="2" id="2">2|Selektiv$kopieren|Command+Shift+c|16777250:55+16777248:56+67:8</K6>
+                <K7 Actid="2" id="2">2|Historgramm|Command+0|16777250:55+48:29</K7>
+                <K8 Actid="2" id="2">2|Original$anzeigen|.|46:47</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="2" id="0">
+              <W1 name="Zoomen" color="2" colorbright="2" orderid="1" speed="3" enable="1" id="4">4|Zoomen|Command+-|Command+Shift+3|16777250:55+45:44|16777250:55+16777248:56+51:20</W1>
+              <W2 name="Blättern" color="5" colorbright="2" orderid="2" speed="5" enable="1" id="4">4|Blättern|←|→|16777234:123|16777236:124</W2>
+              <W3 name="" color="5" colorbright="2" orderid="3" speed="3" enable="0" id="4">4|Pinselgröße|Shift+'|#|16777248:56+39:42|35:42</W3>
+              <W4 name="" color="7" colorbright="2" orderid="4" speed="3" enable="0" id="4">4|Ebene|Command+Shift+*|Command+#|16777250:55+16777248:56+42:30|16777250:55+35:42</W4>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Users/tamio/Library/Application Support/Autodesk/webdeploy/production/da02472ac9da016ddbdfcac50bd21fb642db6f74/Autodesk Fusion 360.app</path>
+            <K id="0">
+              <Set name="Fusion" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Extrudieren|e|69:14</K1>
+                <K2 Actid="2" id="2">2|Drücken/$Ziehen|q|81:12</K2>
+                <K3 Actid="2" id="2">2|Verschieben|m|77:46</K3>
+                <K4 Actid="2" id="2">2|Kompo-$nenten|Shift+n|16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Bohren|h|72:4</K5>
+                <K6 Actid="2" id="2">2|Abrunden|f|70:3</K6>
+                <K7 Actid="2" id="2">2|Ansichten|Shift+!|16777248:56+33:18</K7>
+                <K8 Actid="2" id="2">2|Messen|i|73:34</K8>
+              </Set>
+              <Set name="Ansicht" enable="1" id="1">
+                <K1 Actid="2" id="2">2|Browser|Option+Command+b|16777251:58+16777250:55+66:11</K1>
+                <K2 Actid="2" id="2">2|Daten-$leiste|Option+Command+p|16777251:58+16777250:55+80:35</K2>
+                <K3 Actid="2" id="2">2|ViewCube|Command+Option+v|16777250:55+16777251:58+86:9</K3>
+                <K4 Actid="2" id="2">2|Kompo-$nenten|Shift+n|16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Navigations-$leiste|Command+Option+n|16777250:55+16777251:58+78:45</K5>
+                <K6 Actid="2" id="2">2|Kommentare|Option+Command+a|16777251:58+16777250:55+65:170</K6>
+                <K7 Actid="3" id="3">3|Umschalt+Mittelklick|1+7</K7>
+                <K8 Actid="3" id="3">3|Mittelklick|7</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="2" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="2" speed="3" enable="0" id="2"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="1" speed="5" enable="1" id="1"/>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="0" id="3"/>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="0" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/OBS.app</path>
+            <K id="0">
+              <Set name="Screencast" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Kamera|Command+1|16777248:56+16777249:59+16777251:58+16777250:55+33:18,16777250:55+49:83</K1>
+                <K2 Actid="2" id="2">2|Kamera &amp;$Browser|Command+3|16777250:55+51:85</K2>
+                <K3 Actid="2" id="2">2|Brower &amp;$Kamera|Command+2|16777250:55+50:84</K3>
+                <K4 Actid="2" id="2">2|Browser|Command+4|16777250:55+52:86</K4>
+                <K5 Actid="2" id="2">2|Bildschirm &amp;$Kamera|Command+8|16777250:55+56:91</K5>
+                <K6 Actid="2" id="2">2|Kamera &amp;$Fenster|Command+7|16777250:55+55:89</K6>
+                <K7 Actid="2" id="2">2|Fenster &amp;$Kamera|Command+5|16777250:55+53:87</K7>
+                <K8 Actid="2" id="2">2|Fenster|Command+6|16777250:55+54:88</K8>
+              </Set>
+              <Set name="Bildschirm" enable="1" id="1">
+                <K1 Actid="2" id="2">2|Kamera|Command+1|16777248:56+16777249:59+16777251:58+16777250:55+33:18,16777250:55+49:83</K1>
+                <K2 Actid="2" id="2">2|Bildschirm|Command+9|16777250:55+57:92</K2>
+                <K3 Actid="2" id="2">2|Interner$Bildschirm|Command+0|16777250:55+48:82</K3>
+                <K4 Actid="2" id="2">2|Browser$Overlay|Command++|16777250:55+43:69</K4>
+                <K5 Actid="2" id="2">2|Bildschirm &amp;$Kamera|Command+8|16777250:55+56:91</K5>
+                <K6 Actid="2" id="2">2|Kamera &amp;$Fenster|Command+7|16777250:55+55:89</K6>
+                <K7 Actid="2" id="2">2|Fenster &amp;$Kamera|Command+5|16777250:55+53:87</K7>
+                <K8 Actid="2" id="2">2|Fenster|Command+6|16777250:55+54:88</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|Kamera|Command+1|16777248:56+16777249:59+16777251:58+16777250:55+33:18,16777250:55+49:83</K1>
+                <K2 Actid="2" id="2">2|Kamera &amp;$Browser|Command+3|16777250:55+51:85</K2>
+                <K3 Actid="2" id="2">2|Brower &amp;$Kamera|Command+2|16777250:55+50:84</K3>
+                <K4 Actid="2" id="2">2|Browser|Command+4|16777250:55+52:86</K4>
+                <K5 Actid="2" id="2">2|Bildschirm &amp;$Kamera|Command+8|16777250:55+56:91</K5>
+                <K6 Actid="2" id="2">2|Kamera &amp;$Fenster|Command+7|16777250:55+55:89</K6>
+                <K7 Actid="2" id="2">2|Fenster &amp;$Kamera|Command+5|16777250:55+53:87</K7>
+                <K8 Actid="2" id="2">2|Fenster|Command+6|16777250:55+54:88</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|Kamera|Command+1|16777248:56+16777249:59+16777251:58+16777250:55+33:18,16777250:55+49:83</K1>
+                <K2 Actid="2" id="2">2|Kamera &amp;$Browser|Command+3|16777250:55+51:85</K2>
+                <K3 Actid="2" id="2">2|Brower &amp;$Kamera|Command+2|16777250:55+50:84</K3>
+                <K4 Actid="2" id="2">2|Browser|Command+4|16777250:55+52:86</K4>
+                <K5 Actid="2" id="2">2|Bildschirm &amp;$Kamera|Command+8|16777250:55+56:91</K5>
+                <K6 Actid="2" id="2">2|Kamera &amp;$Fenster|Command+7|16777250:55+55:89</K6>
+                <K7 Actid="2" id="2">2|Fenster &amp;$Kamera|Command+5|16777250:55+53:87</K7>
+                <K8 Actid="2" id="2">2|Fenster|Command+6|16777250:55+54:88</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="2" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="1" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app</path>
+            <K id="0">
+              <Set name="Sketch" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Rückgängig machen|Command+z|16777250:55+90:16</K1>
+                <K2 Actid="2" id="2">2|Wiederholen|Command+Shift+z|16777250:55+16777248:56+90:16</K2>
+                <K3 Actid="2" id="2">2|*#New Layer|Command+Shift+N|16777250:55+16777248:56+78:45</K3>
+                <K4 Actid="2" id="2">2|*#Fit In View|Command+0|16777250:55+48:29</K4>
+                <K5 Actid="3" id="3">3|Shift|1</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Paint" enable="1" id="1">
+                <K1 Actid="2" id="2">2|*#Switch color|X|88:7</K1>
+                <K2 Actid="2" id="2">2|*#Brush Panel|F5|16777268:96</K2>
+                <K3 Actid="2" id="2">2|*#Color Panel|F6|16777269:97</K3>
+                <K4 Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K4>
+                <K5 Actid="3" id="3">3|Shift|1</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 name="" color="2" colorbright="2" orderid="1" speed="3" enable="1" id="4">4|Zoomen|Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W1>
+              <W2 name="" color="6" colorbright="2" orderid="2" speed="3" enable="1" id="3"/>
+              <W3 name="" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Pinselgröße|Shift+'|#|16777248:56+39:42|35:42</W3>
+              <W4 name="" color="7" colorbright="2" orderid="4" speed="3" enable="1" id="4">4|Ebene|Command+Shift+*|Command+#|16777250:55+16777248:56+42:30|16777250:55+35:42</W4>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Warp.app</path>
+            <K id="0">
+              <Set name="Warp" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Command$Palette|Command+p|16777250:55+80:35</K1>
+                <K2 Actid="2" id="2">2|Browse$Workflows|Control+Shift+r|16777249:59+16777248:56+82:15</K2>
+                <K3 Actid="2" id="2">2|Previous$Tab|Option+&lt;|16777251:58+60:50</K3>
+                <K4 Actid="2" id="2">2|Previous$Pane|Control+&lt;|16777249:59+60:50</K4>
+                <K5 Actid="2" id="2">2|Command$Search|Control+r|16777249:59+82:15</K5>
+                <K6 Actid="2" id="2">2|AI Command$Search|Control+#|16777249:59+35:42</K6>
+                <K7 Actid="2" id="2">2|Next$Tab|Option+Shift+>|16777251:58+16777248:56+62:50</K7>
+                <K8 Actid="2" id="2">2|Next$Pane|Control+Shift+>|16777249:59+16777248:56+62:50</K8>
+              </Set>
+              <Set name="Warp2" enable="0" id="1">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|Decrease$Font Size|Command+-|16777250:55+45:44</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|Increase$Font Size|Command++|16777250:55+43:69</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="0" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="0" id="3"/>
+            </R>
+          </App>
+          <App name="0" id="0">
+            <path>/Applications/Axure RP 10.app</path>
+            <K id="0">
+              <Set name="Axure" enable="1" id="0">
+                <K1 Actid="2" id="2">2|Select$inter|Command+Option+1|16777250:55+16777251:58+49:18</K1>
+                <K2 Actid="2" id="2">2|Connect|e|69:14</K2>
+                <K3 Actid="2" id="2">2|Paste$Style|Command+Option+v|16777250:55+16777251:58+86:9</K3>
+                <K4 Actid="2" id="2">2|Left Pane|Command+Option+[|16777250:55+16777251:58+53:23,16777251:58+53:23,16777250:55+54:22</K4>
+                <K5 Actid="2" id="2">2|Select$contained|Command+Option+2|16777250:55+16777251:58+50:19</K5>
+                <K6 Actid="2" id="2">2|Grid|Command+Shift+^|16777250:55+16777248:56+94:42</K6>
+                <K7 Actid="2" id="2">2|Paste$Replace|Command+Option+Shift+v|16777250:55+16777251:58+16777248:56+86:9</K7>
+                <K8 Actid="2" id="2">2|Right Pane|Command+Option+]|16777250:55+16777251:58+54:22</K8>
+              </Set>
+              <Set name="Warp" enable="0" id="1">
+                <K1 Actid="2" id="2">2|Command$Palette|Command+p|16777250:55+80:35</K1>
+                <K2 Actid="2" id="2">2|Browse$Workflows|Control+Shift+r|16777249:59+16777248:56+82:15</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Command$Search|Control+r|16777249:59+82:15</K5>
+                <K6 Actid="2" id="2">2|A.I. Command$Search|Control+#|16777249:59+35:42</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="2">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="" enable="0" id="3">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set name="Finder" enable="1" id="4">
+                <K1 Actid="2" id="2">2|Gehe zu ...|Command+Shift+g|16777250:55+16777248:56+71:5</K1>
+                <K2 Actid="2" id="2">2|Benutzer-$ordner|Command+Shift+h|16777250:55+16777248:56+72:4</K2>
+                <K3 Actid="2" id="2">2|Downloads|Command+Option+l|16777250:55+16777251:58+76:37</K3>
+                <K4 Actid="2" id="2">2|Neuer$Ordner|Command+Shift+n|16777250:55+16777248:56+78:45</K4>
+                <K5 Actid="2" id="2">2|Sidebar$ein/aus|Option+Command+s|16777251:58+16777250:55+83:1</K5>
+                <K6 Actid="2" id="2">2|Schreibtisch|Command+Shift+d|16777250:55+16777248:56+68:2</K6>
+                <K7 Actid="2" id="2">2|Computer|Command+Shift+c|16777250:55+16777248:56+67:8</K7>
+                <K8 Actid="2" id="2">2|Neuer$Ordner + ...|Command+Control+n|16777250:55+16777249:59+78:45</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 name="Scrollen" color="4" colorbright="2" orderid="1" speed="3" enable="1" id="1"/>
+              <W2 name="Zoomen" color="2" colorbright="2" orderid="2" speed="3" enable="1" id="4">4||Command+-|Command++|16777250:55+45:44|16777250:55+43:30</W2>
+              <W3 name="Horizontal" color="5" colorbright="2" orderid="3" speed="3" enable="1" id="4">4|Horizontal Scrollen|←|→|16777234:123|16777236:124</W3>
+              <W4 name="Drehen" color="6" colorbright="2" orderid="4" speed="3" enable="0" id="3"/>
+            </R>
+          </App>
+        </Apps>
+      </Remote>
+    </M6f29482585d3>
+  </PenTableLists>
+  <Tools>
+    <Radial name="">
+      <Default>
+        <K>
+          <K1 lock="0" Motid="1" Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+          <K2 lock="0" Motid="2" Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+          <K3 lock="0" Motid="3" Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+          <K4 lock="0" Motid="4" Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+          <K5 lock="0" Motid="5" Actid="2" id="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+          <K6 lock="0" Motid="6" Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+          <K7 lock="0" Motid="7" Actid="2" id="2">2|*#Enter|Enter|16777220:76</K7>
+          <K8 lock="0" Motid="8" Actid="2" id="2">2|*#Space|Space|32:49</K8>
+        </K>
+      </Default>
+      <CommonAPP>
+        <K cID="0">
+          <Set name="" lock="0" enable="1" id="0">
+            <K1 lock="0" Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 lock="0" Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 lock="0" Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 lock="0" Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 lock="0" Actid="2" id="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 lock="0" Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 lock="0" Actid="2" id="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 lock="0" Actid="2" id="2">2|*#Space|Space|32:49</K8>
+          </Set>
+          <Set name="" lock="0" enable="0" id="1">
+            <K1 lock="0" Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 lock="0" Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 lock="0" Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 lock="0" Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 lock="0" Actid="2" id="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 lock="0" Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 lock="0" Actid="2" id="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 lock="0" Actid="2" id="2">2|*#Space|Space|32:49</K8>
+          </Set>
+          <Set name="" lock="0" enable="0" id="2">
+            <K1 lock="0" Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 lock="0" Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 lock="0" Actid="2" id="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 lock="0" Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 lock="0" Actid="2" id="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 lock="0" Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 lock="0" Actid="2" id="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 lock="0" Actid="2" id="2">2|*#Space|Space|32:49</K8>
+          </Set>
+        </K>
+      </CommonAPP>
+      <Apps/>
+    </Radial>
+  </Tools>
+  <AppList>
+    <path>/Applications/OpenSCAD.app</path>
+    <path>/Applications/Typora.app</path>
+    <path>/Applications/Opera GX.app</path>
+    <path>/Applications/Microsoft Teams.app</path>
+    <path>/Applications/Adobe Lightroom CC/Adobe Lightroom.app</path>
+    <path>/Users/tamio/Library/Application Support/Autodesk/webdeploy/production/da02472ac9da016ddbdfcac50bd21fb642db6f74/Autodesk Fusion 360.app</path>
+    <path>/Applications/OBS.app</path>
+    <path>/Applications/Adobe Photoshop 2023/Adobe Photoshop 2023.app</path>
+    <path>/Applications/Warp.app</path>
+    <path>/Applications/Axure RP 10.app</path>
+  </AppList>
+  <FileNotes>
+    <DataCreated>2022-12-14</DataCreated>
+    <OS>Mac</OS>
+    <LanguageSource>German</LanguageSource>
+    <KeyboardSource>0</KeyboardSource>
+    <DriverVersion>1.2.1-31</DriverVersion>
+    <Notes>Axure RP</Notes>
+  </FileNotes>
+</Root>

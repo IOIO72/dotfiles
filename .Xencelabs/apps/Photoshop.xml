@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <Tablet>
+        <DefaultSetting>
+           <LargePen>
+              <PenBtn1 id="1" Actid="102"/>
+              <PenBtn2 id="1" Actid="104"/>
+              <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </LargePen>
+            <ThinPen>
+              <PenBtn2 id="1" Actid="102"/>
+              <PenBtn3 id="1" Actid="104"/>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </ThinPen>
+            <K>
+                <K1 Motid="1" Show="1" Actid="404" id="4"/>
+                <K2 Motid="2" Show="1" Actid="405" id="4"/>
+                <K3 Motid="3" Show="1" Actid="402" id="4"/>
+            </K>
+            <color id="4" colorbright="2"/>
+            <TablePC>1</TablePC>
+        </DefaultSetting>
+    </Tablet>
+    <Remote>
+        <DefaultSetting>
+		 <K id="0">
+              <Set enable="1" id="0" name="Sketch">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#New Layer|Command+Shift+N|16777250:55+16777248:56+78:45</K3>
+                <K4 Actid="2" id="2">2|*#Fit In View|Command+0|16777250:55+48:29</K4>
+                <K5 Actid="3" id="3">3|Shift|1</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set enable="1" id="1" name="Paint">
+                <K1 Actid="2" id="2">2|*#Switch color|X|88:7</K1>
+                <K2 Actid="2" id="2">2|*#Brush Panel|F5|16777268:96</K2>
+                <K3 Actid="2" id="2">2|*#Color Panel|F6|16777269:97</K3>
+                <K4 Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K4>
+                <K5 Actid="3" id="3">3|Shift|1</K5>
+                <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
+                <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set enable="0" id="2" name="">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                 <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set enable="0" id="3" name="">
+                <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                 <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+              <Set enable="0" id="4" name="">
+               <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
+                <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
+                <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+                <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
+                <K6 Actid="2" id="2">2|*#Enter|Enter|16777220:76</K6>
+                 <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
+                <K8 Actid="2" id="2">2|*#Space|Space|32:49</K8>
+              </Set>
+            </K>
+            <R wid="1" id="0">
+              <W1 color="7" id="2" orderid="1" enable="1" colorbright="2" speed="3" name=""/>
+              <W2 color="6" id="3" orderid="2" enable="1" colorbright="2" speed="3" name=""/>
+              <W3 color="5" id="4" orderid="3" enable="1" colorbright="2" speed="3" name="">4|*#Brush Size|[|]|91:33|93:30</W3>
+              <W4 color="4" id="4" orderid="4" enable="1" colorbright="2" speed="3" name="">4|*#Layer|Option+[|Option+]|16777251:58+91:33|16777251:58+93:30</W4>
+            </R>
+        </DefaultSetting>
+    </Remote>
+</Root>
+

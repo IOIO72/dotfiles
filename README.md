@@ -74,6 +74,10 @@ Apps
 brew install --cask karabiner-elements
 ```
 
+```
+open https://www.xencelabs.com/de/support/download-drivers
+```
+
 ## Installation
 
 ```
