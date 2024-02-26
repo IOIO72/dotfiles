@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2,
+  "zoomLevel": 1.2,
+  "keymap": "macos-ij",
+  "terminal.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.distractionFreeMode": false,
+  "theme": "dark"
+}
