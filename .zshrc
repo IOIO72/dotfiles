@@ -134,11 +134,36 @@ if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 fi
 
 
-# THE FUCK
+### THE FUCK
 
 eval $(thefuck --alias)
+
+
+### GIT
+
+export GPG_TTY=$(tty)
 
 
 # HOMEBREW (Contribution via GitHub)
 
 export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
+
+
+### NVM
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+
+### DOCKER
+
+alias dc="docker-compose"
+alias dcl="docker-compose logs -f"
+
+
+### LOCAL ZSHRC
+
+if [ -f ~/.zshrc.local ]; then
+  source ~/.zshrc.local
+fi
