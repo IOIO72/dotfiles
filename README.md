@@ -92,12 +92,15 @@ brew install --cask fleet
 
 ```
 git clone git@github.com/IOIO72/dotfiles.git
-```
-
-```
-cd dotfiles
-```
-
-```
+cd ~/dotfiles
 stow .
 ```
+
+## Update
+
+```
+cd ~/dotfiles
+git pull
+stow .
+```
+
