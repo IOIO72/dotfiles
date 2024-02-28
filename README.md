@@ -60,6 +60,10 @@ Terminal & utilities
 brew install --cask iterm2
 ```
 
+> [!NOTE]
+>
+> Set `Settings/General/Preferences/Load preferences from a custom folder or URL` to `~/.iterm2_profile`
+
 ```
 brew install --cask warp
 ```
