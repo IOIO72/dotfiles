@@ -82,6 +82,10 @@ brew install --cask karabiner-elements
 open https://www.xencelabs.com/de/support/download-drivers
 ```
 
+```
+brew install --cask typora
+```
+
 IDEs
 
 ```
@@ -91,6 +95,7 @@ brew install --cask fleet
 ## Installation
 
 ```
+cd
 git clone git@github.com:IOIO72/dotfiles.git
 cd ~/dotfiles
 stow .
