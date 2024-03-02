@@ -86,10 +86,14 @@ open https://www.xencelabs.com/de/support/download-drivers
 brew install --cask typora
 ```
 
-IDEs
+IDEs & Dev
 
 ```
 brew install --cask fleet
+```
+
+```
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ## Installation
