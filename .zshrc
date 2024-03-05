@@ -1,4 +1,4 @@
-# OH MY ZSH
+### OH MY ZSH
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -116,17 +116,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-# WARP
+### ITERM2
 
-if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
-  ##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
-
-
-  # ITERM2
+if [[ $TERM_PROGRAM == "iTerm.app" ]]; then
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-
-  ##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
 fi
 
 
@@ -135,7 +128,7 @@ fi
 export GPG_TTY=$(tty)
 
 
-# HOMEBREW (Contribution via GitHub)
+### HOMEBREW (Contribution via GitHub)
 
 export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
 
