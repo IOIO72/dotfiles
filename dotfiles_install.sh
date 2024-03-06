@@ -7,7 +7,7 @@ if [ ! -d ".oh-my-zsh" ]; then
 fi
 
 echo "\nStow install"
-brew install stow
+brew list stow || brew install stow
 
 if [ ! -d "dotfiles" ]; then
   echo "\nDotfiles install"
@@ -18,7 +18,7 @@ if [ ! -d "dotfiles" ]; then
   source ~/.zshrc
 fi
 
-echo "\nHomebrew install"
+echo "\nHomebrew bundle install"
 brew bundle install
 
 echo "\nGIT config"
