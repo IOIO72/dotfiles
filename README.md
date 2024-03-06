@@ -15,13 +15,13 @@ Using:
 
 ## Installation
 
-### Install via Curl:
+### Install via Curl
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfiles_install.sh)"
 ```
 
-### Install via Git:
+### Install via Git
 
 ```
 brew install stow
@@ -39,6 +39,9 @@ source ~/.zshrc
 ```
 
 ### Install manually
+
+<details>
+  <summary>Manual steps</summary>
 
 ```
 brew install stow
@@ -135,7 +138,9 @@ cd
 source ~/.zshrc
 ```
 
-## Update
+</details>
+
+## Update and upgrade
 
 ```
 cd
