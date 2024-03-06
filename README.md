@@ -7,8 +7,11 @@ Using:
 * _Stow_ to alias dotfiles to home directory
 * _Oh My ZSH_ and plugins
 * _Starship_ prompt
+* _iTerm2_ and _Warp_ terminal emulation
 * _Karabiner_ for keyboard modifications
+* _Xencelabs_ macro keypad
 * _Node & Python_ enviroment management
+* _Typora_ markdown editor
 
 ## Installation
 
