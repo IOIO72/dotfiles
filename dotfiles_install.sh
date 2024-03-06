@@ -2,7 +2,7 @@
 cd
 
 if [ ! -d ".oh-my-zsh" ]; then
-  echo "\nZSH install"
+  echo "\nOMZ install"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
