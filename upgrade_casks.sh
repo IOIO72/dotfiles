@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # List of casks to exclude
 excluded_casks=("autodesk-fusion")
