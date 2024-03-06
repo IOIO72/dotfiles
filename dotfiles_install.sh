@@ -2,7 +2,7 @@
 cd
 
 if [ ! -d ".oh-my-zsh" ]; then
-  echo "\nOMZ install"
+  echo "\nOh-My-Zsh install"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
@@ -15,11 +15,12 @@ if [ ! -d "dotfiles" ]; then
   cd ~/dotfiles
   stow .
   cd
-  source ~/.zshrc
 fi
 
-echo "\nHomebrew bundle install"
-brew bundle install
+if [ -f "dotfiles_upgrade.sh" ]; then
+  echo "\nUpgrade brew and dotfiles"
+  ./dotfiles_upgrade.sh
+fi
 
 echo "\nGIT config"
 git config --global core.excludesfile ~/.gitignore_global

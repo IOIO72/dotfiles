@@ -6,7 +6,7 @@ excluded_casks=("autodesk-fusion")
 # Get the list of outdated casks
 outdated_casks=$(brew outdated --casks --greedy --quiet)
 
-echo "\nCasks"
+echo "Casks"
 echo $outdated_casks
 echo "Excluded Casks"
 echo $excluded_casks
