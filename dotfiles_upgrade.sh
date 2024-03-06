@@ -20,3 +20,6 @@ if [ -d "dotfiles" ]; then
   cd
   source ~/.zshrc
 fi
+
+echo "\nHomebrew bundle install"
+brew bundle install
