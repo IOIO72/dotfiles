@@ -130,6 +130,7 @@ export GPG_TTY=$(tty)
 
 ### HOMEBREW (Contribution via GitHub)
 
+export HOMEBREW_BUNDLE_FILE="$HOME/.config/Brewfile"
 export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
 
 

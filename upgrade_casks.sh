@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # List of casks to exclude
 excluded_casks=("autodesk-fusion")
@@ -6,7 +6,7 @@ excluded_casks=("autodesk-fusion")
 # Get the list of outdated casks
 outdated_casks=$(brew outdated --casks --greedy --quiet)
 
-echo "Casks"
+echo "\nCasks"
 echo $outdated_casks
 echo "Excluded Casks"
 echo $excluded_casks

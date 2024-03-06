@@ -10,7 +10,32 @@ Using:
 * _Karabiner_ for keyboard modifications
 * _Node & Python_ enviroment management
 
-## Requirements
+## Installation
+
+### Install via Curl:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfiles_install.sh)"
+```
+
+### Install via Git:
+
+```
+brew install stow
+```
+
+```
+cd
+git clone git@github.com:IOIO72/dotfiles.git
+cd ~/dotfiles
+stow .
+cd
+source ~/.zshrc
+
+./dotfiles_install.sh
+```
+
+### Install manually
 
 ```
 brew install stow
@@ -96,20 +121,21 @@ brew install --cask fleet
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
-## Installation
+Setup Dotfiles
 
 ```
 cd
 git clone git@github.com:IOIO72/dotfiles.git
 cd ~/dotfiles
 stow .
+cd
+source ~/.zshrc
 ```
 
 ## Update
 
 ```
-cd ~/dotfiles
-git pull
-stow .
+cd
+./dotfiles_upgrade.sh
 ```
 
