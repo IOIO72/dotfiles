@@ -27,6 +27,7 @@ fi
 if [ -f ".gitignore_global" ]; then
   echo "\nGIT config"
   git config --global core.excludesfile ~/.gitignore_global
+  git config --global core.excludesfile
 fi
 
 echo "\nInstall Xenselabs Driver https://www.xencelabs.com/de/support/download-drivers"
