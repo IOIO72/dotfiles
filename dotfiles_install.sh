@@ -2,8 +2,8 @@
 cd
 
 if [[ $(command -v brew) == "" ]]; then
-    echo "Hombrew install"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo "Hombrew install"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 if [ ! -d ".oh-my-zsh" ]; then
