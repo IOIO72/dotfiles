@@ -1,6 +1,11 @@
 #!/bin/zsh
 cd
 
+if [[ $(command -v brew) == "" ]]; then
+    echo "Hombrew install"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 if [ ! -d ".oh-my-zsh" ]; then
   echo "\nOh-My-Zsh install"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
