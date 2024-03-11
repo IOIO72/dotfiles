@@ -4,6 +4,7 @@ cd
 if [[ $(command -v brew) == "" ]]; then
   echo "Homebrew install"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  cd
 fi
 
 if [ ! -d ".oh-my-zsh" ]; then
