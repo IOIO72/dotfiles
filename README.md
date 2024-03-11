@@ -1,39 +1,52 @@
 # Dotfiles
 
-My personal Dotfiles (and scripts).
+My personal Dotfiles (and scripts) for macOS.
 
 Using:
 
-* _Stow_ to alias dotfiles to home directory
-* _Oh My ZSH_ and plugins
-* _Starship_ prompt
-* _iTerm2_ and _Warp_ terminal emulation and some commands
-* _Fleet_ and _VSCode_ IDEs
-* _Node & Python_ enviroment management
-* _Karabiner_ for keyboard modifications
-* _Xencelabs_ macro keypad
-* _Typora_ markdown editor
+* _[Stow](https://www.gnu.org/software/stow/)_ to alias dotfiles to home directory
+* [Homebrew](https://brew.sh/) for package management on macOS
+* _[Oh My Zsh](https://ohmyz.sh/)_ and plugins
+* _[Starship](https://starship.rs/)_ prompt
+* _[iTerm2 - macOS Terminal Replacement](https://iterm2.com/)_ and _[Warp](https://www.warp.dev/)_ terminal emulation and some commands
+* _[Fleet](https://www.jetbrains.com/fleet/)_ and _[VSCode](https://code.visualstudio.com/)_ code editors
+* _[Node](https://nodejs.org/)_ environment management via _[nvm](https://github.com/nvm-sh/nvm)_
+* _[Python](https://www.python.org/)_ environment management via _[pyenv](https://github.com/pyenv/pyenv)_
+* _[Karabiner](https://karabiner-elements.pqrs.org/)_ for keyboard modifications
+* _[Xencelabs Quick Keys](https://www.xencelabs.com/products/xencelabs-quick-keys-remote)_ macro keypad
+* _[Typora](https://typora.io/)_ markdown editor
 
 ## Installation
 
-### Install via Curl
+**Install via Curl**
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfiles_install.sh)"
 ```
 
-### Install via Git
+**Install manually**
 
-```sh
-cd
-git clone git@github.com:IOIO72/dotfiles.git
-cd ~/dotfiles
-./dotfiles_install.sh
-```
+1. Download the file [dotfiles_install.sh](https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfiles_install.sh).
+
+2. ```sh
+   chmod +x dotfiles_install.sh
+   ./dotfiles_install.sh
+   ```
+
+## Hooks for local configuration
+
+| Hook                      | File                     | Description                                                  |
+| ------------------------- | ------------------------ | ------------------------------------------------------------ |
+| Local Homebrew Bundle     | ~/.config/Brewfile.local | Define a homebrew bundle with formulae and casks exclusively for the current machine |
+| Local zshrc Configuration | ~/.zshrc.local           | Define ZSH configuration for exclusively for current machine |
+| Local Upgrade Script      | ~/upgrade.local.sh       | Define a script to run for upgrades exclusively on the current machine |
 
 ## Update and upgrade
+
+Keeps scripts and homebrew formulae and casks up to date.
 
 ```sh
 cd
 ./dotfiles_upgrade.sh
 ```
+
