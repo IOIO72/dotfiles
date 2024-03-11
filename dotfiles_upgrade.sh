@@ -29,3 +29,8 @@ if [ -f "upgrade_casks.sh" ]; then
   echo "\nHomebrew casks greedy upgrade\n"
   ./upgrade_casks.sh
 fi
+
+if [ -f "upgrade.local.sh" ]; then
+  echo "\nLocal upgrades\n"
+  ./upgrade.local.sh
+fi
