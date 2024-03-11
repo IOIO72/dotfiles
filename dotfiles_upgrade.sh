@@ -14,9 +14,16 @@ fi
 echo "\nHomebrew bundle install"
 brew bundle install
 
+if [ -f ~/.config/Brewfile.local ]; then
+  echo "\nLocal homebrew bundle install"
+  brew bundle install --file ~/.config/Brewfile.local
+fi
+
+echo "\nLink external homebrew commands for shell completion"
+brew completions link
+
 echo "\nHomebrew upgrade"
-brew update
-brew upgrade
+brew update && brew upgrade
 
 if [ -f "upgrade_casks.sh" ]; then
   echo "\nHomebrew casks greedy upgrade\n"

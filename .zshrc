@@ -1,3 +1,22 @@
+### ITERM2
+
+if [[ $TERM_PROGRAM == "iTerm.app" ]]; then
+  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+fi
+
+
+### GIT
+
+export GPG_TTY=$(tty)
+
+
+### HOMEBREW
+
+export HOMEBREW_BUNDLE_FILE="$HOME/.config/Brewfile"
+export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
+# further homebrew configuration in OH MY ZSH section below
+
+
 ### OH MY ZSH
 
 # If you come from bash you might have to change your $PATH.
@@ -67,6 +86,8 @@ COMPLETION_WAITING_DOTS="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+## PLUGINS
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -74,19 +95,27 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(docker-compose emoji-clock fzf git gitignore isodate jira nvm pyenv starship thefuck zoxide)
 
+# zoxide
 ZOXIDE_CMD_OVERRIDE="cd"
 
+# nvm
 NVM_HOMEBREW="/opt/homebrew"
 
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
+# jira
 JIRA_URL="https://dbvertrieb.jaas.service.deutschebahn.com"
 JIRA_NAME="TamioHonma"
 JIRA_PREFIX="BID-"
 JIRA_RAPID_BOARD=true
 
+# homebrew shell completion
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+## Activate Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -114,24 +143,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-### ITERM2
-
-if [[ $TERM_PROGRAM == "iTerm.app" ]]; then
-  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-fi
-
-
-### GIT
-
-export GPG_TTY=$(tty)
-
-
-### HOMEBREW (Contribution via GitHub)
-
-export HOMEBREW_BUNDLE_FILE="$HOME/.config/Brewfile"
-export HOMEBREW_GITHUB_API_TOKEN='<gh token>'
 
 
 ### LOCAL ZSHRC
