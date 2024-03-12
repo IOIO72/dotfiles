@@ -5,24 +5,26 @@
 	<key>CompatibleVersion</key>
 	<integer>1</integer>
 	<key>RawQuery</key>
-	<string>((_kMDItemFileName = "*.webp"c) || (_kMDItemGroupId = 13))</string>
+	<string>((_kMDItemFileName = "*.lha"c) || (_kMDItemFileName = "*.lzh"c) || (_kMDItemFileName = "*.lzx"c) || (_kMDItemFileName = "*.adf"c) || (_kMDItemFileName = "*.hdf"c) || (_kMDItemFileName = "*.iff"c) || (_kMDItemFileName = "*.mod"c))</string>
 	<key>RawQueryDict</key>
 	<dict>
 		<key>FinderFilesOnly</key>
 		<true/>
 		<key>RawQuery</key>
-		<string>((_kMDItemFileName = "*.webp"c) || (_kMDItemGroupId = 13))</string>
+		<string>((_kMDItemFileName = "*.lha"c) || (_kMDItemFileName = "*.lzh"c) || (_kMDItemFileName = "*.lzx"c) || (_kMDItemFileName = "*.adf"c) || (_kMDItemFileName = "*.hdf"c) || (_kMDItemFileName = "*.iff"c) || (_kMDItemFileName = "*.mod"c))</string>
 		<key>SearchScopes</key>
 		<array>
-			<array>
-				<string>/System/Volumes/Data/Users/tamiohonma/Downloads</string>
-			</array>
+			<string>kMDQueryScopeComputer</string>
 		</array>
 		<key>UserFilesOnly</key>
 		<true/>
 	</dict>
 	<key>SearchCriteria</key>
 	<dict>
+		<key>CurrentFolderPath</key>
+		<array>
+			<string>/Users/tamiohonma/Downloads</string>
+		</array>
 		<key>FXCriteriaSlices</key>
 		<array>
 			<dict>
@@ -51,7 +53,7 @@
 						<array>
 							<string>File Extension</string>
 							<string>is</string>
-							<string>webp</string>
+							<string>lha</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -61,17 +63,105 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>500</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>all</string>
+							<string>lzh</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>lzx</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>adf</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>hdf</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>iff</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>mod</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -82,10 +172,10 @@
 			</dict>
 		</array>
 		<key>FXScope</key>
-		<integer>1396929382</integer>
+		<integer>1396925814</integer>
 		<key>FXScopeArrayOfPaths</key>
 		<array>
-			<string>/Users/tamiohonma/Downloads</string>
+			<string>kMDQueryScopeComputer</string>
 		</array>
 	</dict>
 	<key>SuggestedAttributes</key>

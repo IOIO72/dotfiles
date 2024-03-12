@@ -5,13 +5,13 @@
 	<key>CompatibleVersion</key>
 	<integer>1</integer>
 	<key>RawQuery</key>
-	<string>((_kMDItemFileName = "*.webp"c) || (_kMDItemGroupId = 13))</string>
+	<string>((_kMDItemFileName = "*.csv"c) || (_kMDItemFileName = "*.md"c) || (_kMDItemFileName = "*.txt"c) || (_kMDItemFileName = "*.asc"c) || (_kMDItemFileName = "*.adoc"c) || (_kMDItemFileName = "*.rtf"c))</string>
 	<key>RawQueryDict</key>
 	<dict>
 		<key>FinderFilesOnly</key>
 		<true/>
 		<key>RawQuery</key>
-		<string>((_kMDItemFileName = "*.webp"c) || (_kMDItemGroupId = 13))</string>
+		<string>((_kMDItemFileName = "*.csv"c) || (_kMDItemFileName = "*.md"c) || (_kMDItemFileName = "*.txt"c) || (_kMDItemFileName = "*.asc"c) || (_kMDItemFileName = "*.adoc"c) || (_kMDItemFileName = "*.rtf"c))</string>
 		<key>SearchScopes</key>
 		<array>
 			<array>
@@ -23,6 +23,10 @@
 	</dict>
 	<key>SearchCriteria</key>
 	<dict>
+		<key>CurrentFolderPath</key>
+		<array>
+			<string>/Users/tamiohonma/Downloads</string>
+		</array>
 		<key>FXCriteriaSlices</key>
 		<array>
 			<dict>
@@ -51,7 +55,7 @@
 						<array>
 							<string>File Extension</string>
 							<string>is</string>
-							<string>webp</string>
+							<string>csv</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -61,17 +65,87 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>500</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>all</string>
+							<string>md</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>txt</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>asc</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>adoc</string>
+						</array>
+						<key>rowType</key>
+						<integer>0</integer>
+						<key>subrows</key>
+						<array/>
+					</dict>
+					<dict>
+						<key>criteria</key>
+						<array>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
+						</array>
+						<key>displayValues</key>
+						<array>
+							<string>File Extension</string>
+							<string>is</string>
+							<string>rtf</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -82,7 +156,7 @@
 			</dict>
 		</array>
 		<key>FXScope</key>
-		<integer>1396929382</integer>
+		<integer>1396925286</integer>
 		<key>FXScopeArrayOfPaths</key>
 		<array>
 			<string>/Users/tamiohonma/Downloads</string>
@@ -150,7 +224,7 @@
 				</dict>
 				<dict>
 					<key>ascending</key>
-					<true/>
+					<false/>
 					<key>identifier</key>
 					<string>kind</string>
 					<key>visible</key>
@@ -305,7 +379,7 @@
 				<key>kind</key>
 				<dict>
 					<key>ascending</key>
-					<true/>
+					<false/>
 					<key>index</key>
 					<integer>4</integer>
 					<key>visible</key>

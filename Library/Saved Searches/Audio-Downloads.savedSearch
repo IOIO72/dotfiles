@@ -5,13 +5,13 @@
 	<key>CompatibleVersion</key>
 	<integer>1</integer>
 	<key>RawQuery</key>
-	<string>((_kMDItemFileName = "*.dng"c) || (_kMDItemFileName = "*.raw"c) || (_kMDItemFileName = "*.psd"c) || (kMDItemContentTypeTree = "public.heic"cd) || (kMDItemContentTypeTree = "public.jpeg"cd) || (kMDItemContentTypeTree = "public.tiff"cd) || (kMDItemContentTypeTree = "public.png"cd) || (kMDItemContentTypeTree = "com.microsoft.bmp"cd))</string>
+	<string>((_kMDItemFileName = "*.mp3"c) || (_kMDItemFileName = "*.wav"c) || (_kMDItemFileName = "*.flac"c) || (_kMDItemFileName = "*.wma"c) || (_kMDItemFileName = "*.m4a"c) || (_kMDItemFileName = "*.aac"c) || (_kMDItemFileName = "*.ogg"c))</string>
 	<key>RawQueryDict</key>
 	<dict>
 		<key>FinderFilesOnly</key>
 		<true/>
 		<key>RawQuery</key>
-		<string>((_kMDItemFileName = "*.dng"c) || (_kMDItemFileName = "*.raw"c) || (_kMDItemFileName = "*.psd"c) || (kMDItemContentTypeTree = "public.heic"cd) || (kMDItemContentTypeTree = "public.jpeg"cd) || (kMDItemContentTypeTree = "public.tiff"cd) || (kMDItemContentTypeTree = "public.png"cd) || (kMDItemContentTypeTree = "com.microsoft.bmp"cd))</string>
+		<string>((_kMDItemFileName = "*.mp3"c) || (_kMDItemFileName = "*.wav"c) || (_kMDItemFileName = "*.flac"c) || (_kMDItemFileName = "*.wma"c) || (_kMDItemFileName = "*.m4a"c) || (_kMDItemFileName = "*.aac"c) || (_kMDItemFileName = "*.ogg"c))</string>
 		<key>SearchScopes</key>
 		<array>
 			<array>
@@ -23,6 +23,10 @@
 	</dict>
 	<key>SearchCriteria</key>
 	<dict>
+		<key>CurrentFolderPath</key>
+		<array>
+			<string>/Users/tamiohonma/Downloads</string>
+		</array>
 		<key>FXCriteriaSlices</key>
 		<array>
 			<dict>
@@ -51,7 +55,7 @@
 						<array>
 							<string>File Extension</string>
 							<string>is</string>
-							<string>dng</string>
+							<string>mp3</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -69,7 +73,7 @@
 						<array>
 							<string>File Extension</string>
 							<string>is</string>
-							<string>raw</string>
+							<string>wav</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -87,7 +91,7 @@
 						<array>
 							<string>File Extension</string>
 							<string>is</string>
-							<string>psd</string>
+							<string>flac</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -97,17 +101,15 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>507</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>HEIC</string>
+							<string>wma</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -117,17 +119,15 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>502</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>JPEG</string>
+							<string>m4a</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -137,17 +137,15 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>503</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>TIFF</string>
+							<string>aac</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -157,37 +155,15 @@
 					<dict>
 						<key>criteria</key>
 						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>505</integer>
+							<string>com_apple_FileExtensionAttribute</string>
+							<integer>1900</integer>
+							<integer>1901</integer>
 						</array>
 						<key>displayValues</key>
 						<array>
-							<string>Kind</string>
+							<string>File Extension</string>
 							<string>is</string>
-							<string>images</string>
-							<string>PNG</string>
-						</array>
-						<key>rowType</key>
-						<integer>0</integer>
-						<key>subrows</key>
-						<array/>
-					</dict>
-					<dict>
-						<key>criteria</key>
-						<array>
-							<string>kMDItemKind</string>
-							<integer>300</integer>
-							<integer>408</integer>
-							<integer>506</integer>
-						</array>
-						<key>displayValues</key>
-						<array>
-							<string>Kind</string>
-							<string>is</string>
-							<string>images</string>
-							<string>BMP</string>
+							<string>ogg</string>
 						</array>
 						<key>rowType</key>
 						<integer>0</integer>
@@ -198,7 +174,7 @@
 			</dict>
 		</array>
 		<key>FXScope</key>
-		<integer>1396929382</integer>
+		<integer>1396925286</integer>
 		<key>FXScopeArrayOfPaths</key>
 		<array>
 			<string>/Users/tamiohonma/Downloads</string>
