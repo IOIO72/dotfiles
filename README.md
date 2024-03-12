@@ -33,11 +33,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfi
    ./dotfiles_install.sh
    ```
    
-   > [!WARNING]
-   >
-   > Place the script outside the root of your home directory before you start it.
-   >
-   > You may also see errors, when stow can't create a symlink. In this case, append a *backup*-Suffix to them and restart the script.
+> [!WARNING]
+>
+> Place the script outside the root of your home directory before you start it.
+>
+> You may also see errors, when stow can't create a symlink. In this case, append a *backup*-Suffix to them and restart the script.
 
 ## Hooks for local configuration
 
