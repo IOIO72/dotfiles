@@ -52,8 +52,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/IOIO72/dotfiles/main/dotfi
 Keeps scripts and homebrew formulae and casks up to date.
 
 ```sh
-cd
-./dotfiles_upgrade.sh
+upgrade
 ```
 
 ## Recommendations
