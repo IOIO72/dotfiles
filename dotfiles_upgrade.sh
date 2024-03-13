@@ -11,23 +11,14 @@ if [ -d "dotfiles" ]; then
   source ~/.zshrc
 fi
 
-echo "\nHomebrew bundle install"
-brew bundle install
-
-if [ -f ~/.config/Brewfile.local ]; then
-  echo "\nLocal homebrew bundle install"
-  brew bundle install --file ~/.config/Brewfile.local
+if [ -f "upgrade_brew.sh" ]; then
+  echo "\nHomebrew upgrade\n"
+  ./upgrade_brew.sh
 fi
 
-echo "\nLink external homebrew commands for shell completion"
-brew completions link
-
-echo "\nHomebrew upgrade"
-brew update && brew upgrade
-
-if [ -f "upgrade_casks.sh" ]; then
-  echo "\nHomebrew casks greedy upgrade\n"
-  ./upgrade_casks.sh
+if [ -f "upgrade_greedy.sh" ]; then
+  echo "\nHomebrew upgrade greedy\n"
+  ./upgrade_greedy.sh
 fi
 
 if [ -f "upgrade.local.sh" ]; then
