@@ -37,5 +37,5 @@ if [ -f ".gitignore_global" ]; then
 fi
 
 echo "\nInstall Xenselabs Driver https://www.xencelabs.com/de/support/download-drivers"
-echo "Set iTerm2 'Settings/General/Preferences/Load preferences from a custom folder or URL' to '~/.iterm2_profile'"
 echo "Open '~/Library/Saved Searches' in Finder and add selected ones to finder favorites via ^⌘T"
+echo "Set iTerm2 'Settings/General/Preferences/Load preferences from a custom folder or URL' to '~/.iterm2_profile'"
