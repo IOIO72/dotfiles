@@ -144,6 +144,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias upgrade="~/dotfiles_upgrade.sh"
+alias dust="dust -r -p -B"
 
 
 ### LOCAL ZSHRC
