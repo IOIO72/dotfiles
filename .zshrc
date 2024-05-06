@@ -145,6 +145,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias upgrade="~/dotfiles_upgrade.sh"
 alias dust="dust -r -p -B"
+alias nvimtutor="nvim -u NORC -c \"Tutor\""
 
 
 ### LOCAL ZSHRC
