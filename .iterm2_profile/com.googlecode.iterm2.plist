@@ -7,7 +7,7 @@
 
 The script should do this: \(ai.prompt)</string>
 	<key>AiMaxTokens</key>
-	<integer>128000</integer>
+	<integer>4096</integer>
 	<key>AiModel</key>
 	<string>gpt-4o</string>
 	<key>BracketedPasteMode</key>
