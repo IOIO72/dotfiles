@@ -1185,7 +1185,6 @@
 	<integer>2</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Profiles</string>
 		<string>Jobs</string>
 	</array>
 	<key>VisualIndicatorForEsc</key>
