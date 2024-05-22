@@ -1186,6 +1186,7 @@
 	<key>ToolbeltTools</key>
 	<array>
 		<string>Jobs</string>
+		<string>Codecierge</string>
 	</array>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
