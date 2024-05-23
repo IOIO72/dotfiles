@@ -1193,6 +1193,7 @@ The script should do this: \(ai.prompt)</string>
 	<integer>2</integer>
 	<key>ToolbeltTools</key>
 	<array>
+		<string>Jobs</string>
 		<string>Codecierge</string>
 	</array>
 	<key>VisualIndicatorForEsc</key>
