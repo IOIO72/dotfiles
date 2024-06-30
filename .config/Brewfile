@@ -1,4 +1,3 @@
-tap "homebrew/cask-fonts"
 brew "btop"
 brew "curl"
 brew "dust"
