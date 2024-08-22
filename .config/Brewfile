@@ -1,6 +1,7 @@
 brew "btop"
 brew "curl"
 brew "dust"
+brew "figlet"
 brew "fzf"
 brew "gitui"
 brew "httpie"
