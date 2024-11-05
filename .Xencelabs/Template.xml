@@ -677,7 +677,7 @@
 			<K7 lock="0" id="0" Actid="0"/>
 			<K8 lock="0" id="0" Actid="0"/>
 		  </Set>
-		   <Set enable="0" id="1"lock="0" >
+		   <Set enable="0" id="1" lock="0" >
 			<K1 lock="0" id="0" Actid="0"/>
 			<K2 lock="0" id="0" Actid="0"/>
 			<K3 lock="0" id="0" Actid="0"/>
