@@ -3,3 +3,4 @@
 .Xencelabs/dialogpos.ini
 .Xencelabs/Template.xml
 .DS_Store
+.config/nvim/pack/
