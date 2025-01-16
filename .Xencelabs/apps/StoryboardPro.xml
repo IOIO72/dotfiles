@@ -26,6 +26,32 @@
             <TablePC>1</TablePC>
         </DefaultSetting>
     </Tablet>
+    <DisplayTablet>
+        <DefaultSetting>
+            <LargePen>
+                <PenBtn1 id="1" Actid="102"/>
+                <PenBtn2 id="1" Actid="103"/>
+                <PenBtn3 id="3" Actid="3">3|*#Space|4</PenBtn3>
+                <PenBtn0 id="7" Actid="7"/>
+                <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+                <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </LargePen>
+            <ThinPen>
+                <PenBtn2 id="1" Actid="102"/>
+                <PenBtn3 id="1" Actid="103"/>
+                <PenBtn0 id="7" Actid="7"/>
+                <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+                <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </ThinPen>
+            <K>
+                <K1 Motid="1" Show="1" Actid="404" id="4"/>
+                <K2 Motid="2" Show="1" Actid="405" id="4"/>
+                <K3 Motid="3" Show="1" Actid="409" id="4"/>
+            </K>
+            <color id="5" colorbright="2"/>
+            <TablePC>1</TablePC>
+        </DefaultSetting>
+    </DisplayTablet>
     <Remote>
         <DefaultSetting>
             <K id="0">

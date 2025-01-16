@@ -22,16 +22,42 @@
                 <K2 Motid="2" Show="1" Actid="405" id="4"/>
                 <K3 Motid="3" Show="1" Actid="402" id="4"/>
             </K>
-            <color id="4" colorbright="2"/>
+            <color id="5" colorbright="2"/>
             <TablePC>1</TablePC>
         </DefaultSetting>
     </Tablet>
+    <DisplayTablet>
+        <DefaultSetting>
+            <LargePen>
+              <PenBtn1 id="2" Actid="2">2|Option|Option|16777251:58</PenBtn1>
+              <PenBtn2 id="1" Actid="102"/>
+              <PenBtn3 id="2" Actid="2">2|Command+Option|Command+Option|16777250:55+16777251:58</PenBtn3>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </LargePen>
+            <ThinPen>
+              <PenBtn2 id="2" Actid="2">2|Option|Option|16777251:58</PenBtn2>
+              <PenBtn3 id="1" Actid="102"/>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </ThinPen>
+            <K>
+                <K1 Motid="1" Show="1" Actid="404" id="4"/>
+                <K2 Motid="2" Show="1" Actid="405" id="4"/>
+                <K3 Motid="3" Show="1" Actid="409" id="4"/>
+            </K>
+            <color id="5" colorbright="2"/>
+            <TablePC>1</TablePC>
+        </DefaultSetting>
+    </DisplayTablet>
     <Remote>
         <DefaultSetting>
 		 <K id="0">
               <Set enable="1" id="0" name="Draw">
                 <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
-                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
                 <K3 Actid="2" id="2">2|*#Fit In View|F|70:3</K3>
                 <K4 Actid="2" id="2">2|*#Reset View|Z|90:6</K4>
                 <K5 Actid="2" id="2">2|Shift|Shift|16777248:56</K5>
@@ -41,7 +67,7 @@
               </Set>
               <Set enable="0" id="1" name="">
                 <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
-                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
                 <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
                 <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
                 <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
@@ -51,7 +77,7 @@
               </Set>
               <Set enable="0" id="2" name="">
                 <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
-                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
                 <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
                 <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
                 <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
@@ -61,7 +87,7 @@
                 </Set>
               <Set enable="0" id="3" name="">
                 <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
-                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
                 <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
                 <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
                 <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>
@@ -71,7 +97,7 @@
               </Set>
               <Set enable="0" id="4" name="">
                 <K1 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
-                <K2 Actid="2" id="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+                <K2 Actid="2" id="2">2|*#Redo|Command+Shift+Z|16777250:55+16777248:56+90:6</K2>
                 <K3 Actid="2" id="2">2|*#Copy|Copy|Command+C|16777250:55+67:8</K3>
                 <K4 Actid="2" id="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
                 <K5 Actid="2" id="2">2|Esc|Esc|16777216:53</K5>

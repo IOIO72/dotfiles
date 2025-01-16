@@ -26,6 +26,32 @@
             <TablePC>1</TablePC>
         </DefaultSetting>
     </Tablet>
+    <DisplayTablet>
+        <DefaultSetting>
+           <LargePen>
+              <PenBtn1 id="1" Actid="102"/>
+              <PenBtn2 id="1" Actid="104"/>
+              <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </LargePen>
+            <ThinPen>
+              <PenBtn2 id="1" Actid="102"/>
+              <PenBtn3 id="1" Actid="104"/>
+              <PenBtn0 id="7" Actid="7"/>
+              <Pen px="0.5" p2="1" p0="0" py="0.5"/>
+              <Erase px="0.5" p2="1" p0="0" py="0.5"/>
+            </ThinPen>
+            <K>
+                <K1 Motid="1" Show="1" Actid="404" id="4"/>
+                <K2 Motid="2" Show="1" Actid="405" id="4"/>
+                <K3 Motid="3" Show="1" Actid="409" id="4"/>
+            </K>
+            <color id="5" colorbright="2"/>
+            <TablePC>1</TablePC>
+        </DefaultSetting>
+    </DisplayTablet>
     <Remote>
         <DefaultSetting>
 		 <K id="0">
@@ -43,7 +69,7 @@
                 <K1 Actid="2" id="2">2|*#Switch color|X|88:7</K1>
                 <K2 Actid="2" id="2">2|*#Brush Panel|F5|16777268:96</K2>
                 <K3 Actid="2" id="2">2|*#Color Panel|F6|16777269:97</K3>
-                <K4 Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:2</K4>
+                <K4 Actid="2" id="2">2|*#Deselect|Command+D|16777250:55+68:3</K4>
                 <K5 Actid="3" id="3">3|Shift|1</K5>
                 <K6 Actid="2" id="2">2|Command|Command|16777250:55</K6>
                 <K7 Actid="2" id="2">2|Option|Option|16777251:58</K7>
