@@ -146,6 +146,7 @@ source $ZSH/oh-my-zsh.sh
 alias upgrade="~/dotfiles_upgrade.sh"
 alias dust="dust -r -p -B"
 alias nvimtutor="nvim -u NORC -c \"Tutor\""
+alias ascii="figlet -f slant"
 
 
 ### LOCAL ZSHRC
