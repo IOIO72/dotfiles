@@ -1,3 +1,4 @@
+brew "asciinema"
 brew "btop"
 brew "curl"
 brew "dust"
