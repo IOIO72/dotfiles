@@ -21,6 +21,11 @@ if [ -f "upgrade_greedy.sh" ]; then
   ./upgrade_greedy.sh
 fi
 
+if [[ $(command -v tldr) != "" ]]; then
+  echo "\nTLDR update"
+  tldr --update
+fi
+
 if [ -f "upgrade.local.sh" ]; then
   echo "\nLocal upgrades\n"
   ./upgrade.local.sh
