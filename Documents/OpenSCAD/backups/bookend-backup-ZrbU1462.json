@@ -1,0 +1,38 @@
+{
+    "parameterSets": {
+        "Left and Right Rounded Strong Bookends": {
+            "$fn": "500",
+            "bottom_thickness": "2",
+            "depth": "100",
+            "gap": "4",
+            "height": "150",
+            "rounded": "true",
+            "side_thickness": "4",
+            "stronger": "true",
+            "width": "100"
+        },
+        "Strong Bookend": {
+            "$fn": "500",
+            "bottom_thickness": "2",
+            "depth": "100",
+            "gap": "4",
+            "height": "150",
+            "rounded": "false",
+            "side_thickness": "4",
+            "stronger": "true",
+            "width": "100"
+        },
+        "Fully Rounded Bookend": {
+            "$fn": "500",
+            "bottom_thickness": "2",
+            "depth": "100",
+            "gap": "4",
+            "height": "150",
+            "rounded": "true",
+            "side_thickness": "4",
+            "stronger": "false",
+            "width": "100"
+        }
+    },
+    "fileFormatVersion": "1"
+}
