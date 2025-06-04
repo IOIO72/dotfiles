@@ -28,6 +28,8 @@ The script should do this: \(ai.prompt)</string>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>LeftTabBarWidth</key>
+	<real>199</real>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
