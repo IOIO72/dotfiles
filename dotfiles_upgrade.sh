@@ -2,7 +2,7 @@
 cd
 
 if [ -d "dotfiles" ]; then
-  echo "\nDotfiles upgrade"
+  date "+%n———— %H:%M:%S · Dotfiles upgrade —————————————————————————%n"
   cd ~/dotfiles
   git status
   git pull
@@ -12,21 +12,21 @@ if [ -d "dotfiles" ]; then
 fi
 
 if [ -f "upgrade_brew.sh" ]; then
-  echo "\nHomebrew upgrade\n"
+  date "+%n———— %H:%M:%S · Homebrew upgrade —————————————————————————%n"
   ./upgrade_brew.sh
 fi
 
 if [ -f "upgrade_greedy.sh" ]; then
-  echo "\nHomebrew upgrade greedy\n"
+  date "+%n———— %H:%M:%S · Homebrew upgrade greedy ——————————————————%n"
   ./upgrade_greedy.sh
 fi
 
 if [[ $(command -v tldr) != "" ]]; then
-  echo "\nTLDR update"
+  date "+%n———— %H:%M:%S · TLDR update ——————————————————————————————%n"
   tldr --update
 fi
 
 if [ -f "upgrade.local.sh" ]; then
-  echo "\nLocal upgrades\n"
+  date "+%n———— %H:%M:%S · Local upgrades ———————————————————————————%n"
   ./upgrade.local.sh
 fi
