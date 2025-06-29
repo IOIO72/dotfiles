@@ -148,6 +148,7 @@ alias dust="dust -r -p -B"
 alias nvimtutor="nvim -u NORC -c \"Tutor\""
 alias ascii="figlet -f slant"
 alias asciifonts="showfigfonts | less"
+alias ansicolors="msgcat --color=test"
 
 
 ### LOCAL ZSHRC
