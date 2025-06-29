@@ -173,12 +173,16 @@ The script should do this: \(ai.prompt)</string>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>1</real>
+				<key>Color Space</key>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.57162599520497603</real>
 				<key>Red Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.53501346081870027</real>
 			</dict>
 			<key>Ansi 12 Color (Dark)</key>
 			<dict>
@@ -239,12 +243,16 @@ The script should do this: \(ai.prompt)</string>
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.97600929349508048</real>
+				<key>Color Space</key>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.92221567397840098</real>
 				<key>Red Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.29497404172133096</real>
 			</dict>
 			<key>Ansi 14 Color (Dark)</key>
 			<dict>
@@ -371,12 +379,16 @@ The script should do this: \(ai.prompt)</string>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.99999994908883194</real>
+				<key>Color Space</key>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.55696037453010405</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.12297346001647483</real>
 			</dict>
 			<key>Ansi 4 Color (Dark)</key>
 			<dict>
@@ -437,12 +449,16 @@ The script should do this: \(ai.prompt)</string>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.75073044366700203</real>
+				<key>Color Space</key>
+				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.77029090290012381</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.38508661290065627</real>
 			</dict>
 			<key>Ansi 6 Color (Dark)</key>
 			<dict>
