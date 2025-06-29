@@ -192,14 +192,16 @@
             <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
 			<PenBtn0 Actid="7" id="7"/>
 			<Pen p0="0" py="0.5" p2="1" px="0.5"/>
-			<Erase p0="0" py="0.5" p2="1" px="0.5"/>		
+			<Erase p0="0" py="0.5" p2="1" px="0.5"/>
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>		
 		</LargePen>
 		<ThinPen>
 			<PenBtn2 Actid="102" id="1"/>
 			<PenBtn3 Actid="104" id="1"/>
 			<PenBtn0 Actid="7" id="7"/>
 			<Pen p0="0" py="0.5" p2="1" px="0.5"/>
-			<Erase p0="0" py="0.5" p2="1" px="0.5"/>		
+			<Erase p0="0" py="0.5" p2="1" px="0.5"/>	
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>	
 		</ThinPen>
 		<K>
 			<K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -211,19 +213,21 @@
 	</DefaultSetting>
     <CommonAPP>
       <LargePen>
-		<PenBtn1 id="1" Actid="102"/>
+		    <PenBtn1 id="1" Actid="102"/>
         <PenBtn2 id="1" Actid="104"/>
         <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
-		<PenBtn0 Actid="7" id="7"/>
+		    <PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+		    <Erase p0="0" px="0.5" py="0.5" p2="1"></Erase> 
+        <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>     
       </LargePen>
 	  <ThinPen>
-		<PenBtn2 Actid="102" id="1"/>
-		<PenBtn3 Actid="104" id="1"/>
-		<PenBtn0 Actid="7" id="7"/>
+		    <PenBtn2 Actid="102" id="1"/>
+		    <PenBtn3 Actid="104" id="1"/>
+		    <PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-		<Erase p0="0" py="0.5" p2="1" px="0.5"/>
+		    <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+        <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
       <K>
           <K1 Show="1" Actid="404" id="4" Motid="1"/>
@@ -244,7 +248,8 @@
         <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>  
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>    
       </LargePen>
 	  <ThinPen>
 		<PenBtn2 Actid="102" id="1"/>
@@ -252,6 +257,7 @@
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
 		<Erase p0="0" py="0.5" p2="1" px="0.5"/>
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
 		<K>
 			<K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -307,14 +313,16 @@
             <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
 			<PenBtn0 Actid="7" id="7"/>
 			<Pen p0="0" py="0.5" p2="1" px="0.5"/>
-			<Erase p0="0" py="0.5" p2="1" px="0.5"/>		
+			<Erase p0="0" py="0.5" p2="1" px="0.5"/>	
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>	
 		</LargePen>
 		<ThinPen>
 			<PenBtn2 Actid="102" id="1"/>
 			<PenBtn3 Actid="104" id="1"/>
 			<PenBtn0 Actid="7" id="7"/>
 			<Pen p0="0" py="0.5" p2="1" px="0.5"/>
-			<Erase p0="0" py="0.5" p2="1" px="0.5"/>		
+			<Erase p0="0" py="0.5" p2="1" px="0.5"/>	
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>	
 		</ThinPen>
 		<K>
 			<K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -331,7 +339,8 @@
         <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase> 
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>     
       </LargePen>
 	  <ThinPen>
 		<PenBtn2 Actid="102" id="1"/>
@@ -339,6 +348,7 @@
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
 		<Erase p0="0" py="0.5" p2="1" px="0.5"/>
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
       <K>
           <K1 Show="1" Actid="404" id="4" Motid="1"/>
@@ -359,7 +369,8 @@
         <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+		<Erase p0="0" px="0.5" py="0.5" p2="1"></Erase> 
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>     
       </LargePen>
 	  <ThinPen>
 		<PenBtn2 Actid="102" id="1"/>
@@ -367,6 +378,7 @@
 		<PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
 		<Erase p0="0" py="0.5" p2="1" px="0.5"/>
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
 		<K>
 			<K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -430,7 +442,8 @@
       <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
       <PenBtn0 Actid="7" id="7"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-      <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <Erase p0="0" py="0.5" p2="1" px="0.5"/> 
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>   
     </LargePen>
     <ThinPen>
       <PenBtn2 Actid="102" id="1"/>
@@ -438,6 +451,7 @@
       <PenBtn0 Actid="7" id="7"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
       <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
     </ThinPen>
     <K>
       <K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -449,19 +463,21 @@
   </DefaultSetting>
     <CommonAPP>
       <LargePen>
-    <PenBtn1 Actid="102" id="1"/>
-    <PenBtn2 Actid="104" id="1"/>
-    <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
-    <PenBtn0 Actid="7" id="7"/>
+        <PenBtn1 Actid="102" id="1"/>
+        <PenBtn2 Actid="104" id="1"/>
+        <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
+        <PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-    <Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+        <Erase p0="0" px="0.5" py="0.5" p2="1"></Erase> 
+        <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>     
       </LargePen>
     <ThinPen>
-    <PenBtn2 Actid="102" id="1"/>
-    <PenBtn3 Actid="104" id="1"/>
-    <PenBtn0 Actid="7" id="7"/>
+        <PenBtn2 Actid="102" id="1"/>
+        <PenBtn3 Actid="104" id="1"/>
+        <PenBtn0 Actid="7" id="7"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-    <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+        <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+        <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
       <K>
           <K1 Show="1" Actid="404" id="4" Motid="1"/>
@@ -482,7 +498,8 @@
       <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
       <PenBtn0 Actid="7" id="7"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-      <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <Erase p0="0" py="0.5" p2="1" px="0.5"/> 
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>   
     </LargePen>
     <ThinPen>
       <PenBtn2 Actid="102" id="1"/>
@@ -490,6 +507,7 @@
       <PenBtn0 Actid="7" id="7"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
       <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
     </ThinPen>
     <K>
       <K1 Motid="1" Show="1" Actid="404" id="4"/>
@@ -553,14 +571,16 @@
       <PenBtn3 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
       <PenBtn0 Actid="409" id="4"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-      <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <Erase p0="0" py="0.5" p2="1" px="0.5"/> 
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>   
     </LargePen>
     <ThinPen>
       <PenBtn2 Actid="102" id="1"/>
       <PenBtn3 Actid="104" id="1"/>
       <PenBtn0 Actid="409" id="4"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-      <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <Erase p0="0" py="0.5" p2="1" px="0.5"/> 
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>   
     </ThinPen>
     <color id="5" colorbright="2"/>
     <TablePC>1</TablePC>
@@ -572,7 +592,8 @@
     <PenBtn3 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
     <PenBtn0 Actid="409" id="4"/>
         <Pen p0="0" px="0.5" py="0.5" p2="1"></Pen>
-    <Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>      
+    <Erase p0="0" px="0.5" py="0.5" p2="1"></Erase>  
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>    
       </LargePen>
     <ThinPen>
     <PenBtn2 Actid="102" id="1"/>
@@ -580,6 +601,7 @@
     <PenBtn0 Actid="409" id="4"/>
         <Pen p0="0" py="0.5" p2="1" px="0.5"/>
     <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+    <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
       </ThinPen>
     <color id="5" colorbright="2"/>
     <TablePC>1</TablePC>
@@ -595,7 +617,8 @@
       <PenBtn3 Actid="2" id="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
       <PenBtn0 Actid="409" id="4"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
-      <Erase p0="0" py="0.5" p2="1" px="0.5"/>    
+      <Erase p0="0" py="0.5" p2="1" px="0.5"/> 
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>   
     </LargePen>
     <ThinPen>
       <PenBtn2 Actid="102" id="1"/>
@@ -603,6 +626,7 @@
       <PenBtn0 Actid="409" id="4"/>
       <Pen p0="0" py="0.5" p2="1" px="0.5"/>
       <Erase p0="0" py="0.5" p2="1" px="0.5"/>
+      <OtherFeatures HoverClick="0" PressHold="0" Speed="1" Duration="1" Distance="1"/>
     </ThinPen>
     <K>
       <K1 Motid="1" Show="1" Actid="404" id="4"/>
